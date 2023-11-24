@@ -1,0 +1,17 @@
+.home {
+    display: flex;
+}
+
+
+@media screen and (max-width : 850px) {
+    .sidebar {
+        display: none;
+    }
+
+    .posts {
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+}
